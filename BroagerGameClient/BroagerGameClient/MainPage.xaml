@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BroagerGameClient"
+             x:Class="BroagerGameClient.MainPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Entry x:Name="nameBox" Grid.Row="0" Grid.Column="0"></Entry>
+        <Button x:Name="joinBtn" Grid.Row="0" Grid.Column="1" BackgroundColor="Coral">Join</Button>
+        <Button x:Name="answer1" Grid.Row="1" Grid.Column="0" BackgroundColor="Aqua"></Button>
+        <Button x:Name="answer2" Grid.Row="1" Grid.Column="1" BackgroundColor="Gold"></Button>
+        <Button x:Name="answer3" Grid.Row="2" Grid.Column="0" BackgroundColor="Lime"></Button>
+        <Button x:Name="answer4" Grid.Row="2" Grid.Column="1" BackgroundColor="RosyBrown"></Button>
+    </Grid>
+
+</ContentPage>
